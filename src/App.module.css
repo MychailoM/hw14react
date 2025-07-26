@@ -1,0 +1,164 @@
+.container{
+  display: flex;
+  width: 100vw;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+
+
+.formBox{
+  width: 50%;   
+  box-sizing: border-box;
+  padding: 30px;
+  padding-left: 260px;
+  height: 80vh;
+}
+
+.detailsBox{
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  
+}
+
+.detailsTitle {
+  font-size: 24px;
+  color: #222222;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 500;
+}
+
+.detailsInput{
+  padding: 16px 64px 16px 16px;
+  color: rgb(160, 160, 160);
+  border: 1px solid rgb(200, 200, 200);
+  font-weight: 500;
+}
+
+.comentTitle{
+  margin-top: 36px;
+  font-weight: 500;
+}
+
+.comentField{
+  padding: 8px 326px 16px 16px ;
+  font-size: 16px;
+  margin-bottom: 32px;
+  color: rgb(160, 160, 160);
+  border: 1px solid rgb(200, 200, 200);
+  font-weight: 500;
+}
+
+.check{
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;  
+}
+
+.checkText{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(160, 160, 160);
+}
+
+.deliveryTitle{
+  margin-top: 36px;
+  font-weight: 500;
+}
+
+.radio{
+  accent-color: rgb(117, 40, 66);
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+.radioText{
+  color: rgb(117, 40, 66);
+  font-size: 20px;
+  
+}
+
+.choice{
+  padding: 16px 380px 16px 16px;
+  font-size: 16px;
+  margin-bottom: 32px;
+  color: rgb(119, 119, 119);
+  border: 1px solid rgb(200, 200, 200);
+  font-weight: 500;
+  
+}
+
+.productCard{
+  border: 1px solid rgb(200, 200, 200);
+  height: 60vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.productTitle{
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.productInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.productName{
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.productInfoType{
+  font-weight: 400;
+  color: rgb(180, 180, 180);
+  margin: 0;
+  padding: 0;
+}
+
+.product{
+  font-weight: 400;    
+    margin: 0;
+    padding: 0;
+}
+
+.product:nth-child(3){
+  color: rgb(180, 180, 180);
+}
+
+.sumContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum{
+  color: rgb(180, 180, 180);
+  font-weight: 500;
+}
+
+.sumNum{
+  margin-right: -420px;
+  font-weight: 500;
+}
+
+.buttonWrap{
+  position: absolute;
+  right: 25%;
+  transform: translateX(-20%);
+  bottom: 220px;
+}
+
+.button{  
+  border: none;
+  padding: 24px 36px;
+  background-color: #222222;
+  color: white;
+  font-size: 24px;
+}
